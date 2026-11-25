@@ -1,0 +1,9 @@
+{
+  "id": "PRJ-DEMO-001",
+  "name": "Practice Process Unit — Substation to Pump Area",
+  "revision": "P02 (Simulated)",
+  "modelName": "Practice SP3D-style tray layout (simulated)",
+  "dataSource": "Local dummy JSON files in /data — SIMULATED DATA, not exported from a real SP3D model",
+  "units": "mm / mm²",
+  "updatedAt": "2026-11-25"
+}

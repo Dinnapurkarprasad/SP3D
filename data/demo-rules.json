@@ -1,0 +1,46 @@
+[
+  {
+    "id": "R-01",
+    "name": "LV power and instrumentation sharing a tray",
+    "check": "co-location",
+    "cableFamilies": ["LV Power", "Instrumentation"],
+    "ruleDescription": "Flags tray segments where LV power and instrumentation cables are assigned to the same tray. Whether this is acceptable (barrier, separate tray, separation distance, screened cable) must come from the approved project specification.",
+    "severity": "high",
+    "sourceLabel": "Illustrative demo rule — not from an approved project specification",
+    "projectRequirement": null,
+    "isIllustrative": true
+  },
+  {
+    "id": "R-02",
+    "name": "LV power and communication sharing a tray",
+    "check": "co-location",
+    "cableFamilies": ["LV Power", "Communication"],
+    "ruleDescription": "Flags tray segments where LV power and communication cables share a tray. Fibre is not susceptible to induced noise, but the project may still require segregation for maintenance or identification reasons.",
+    "severity": "medium",
+    "sourceLabel": "Illustrative demo rule — not from an approved project specification",
+    "projectRequirement": null,
+    "isIllustrative": true
+  },
+  {
+    "id": "R-03",
+    "name": "All cables must have a cable family",
+    "check": "classification",
+    "cableFamilies": [],
+    "ruleDescription": "Segregation review is only complete when every cable has a family (power, control, instrumentation, etc.). Unclassified cables cannot be checked against segregation rules.",
+    "severity": "medium",
+    "sourceLabel": "Illustrative demo rule — data completeness check",
+    "projectRequirement": "Every cable record must have a cable family before segregation review (demo data-completeness rule).",
+    "isIllustrative": true
+  },
+  {
+    "id": "R-04",
+    "name": "Minimum separation distance between power and instrumentation",
+    "check": "not-evaluable",
+    "cableFamilies": ["LV Power", "Instrumentation"],
+    "ruleDescription": "A separation distance can only be checked with cable positions inside the tray and an approved distance value. The dummy data has neither, so this app does not check it.",
+    "severity": "high",
+    "sourceLabel": "Illustrative demo rule — distance value deliberately not supplied",
+    "projectRequirement": null,
+    "isIllustrative": true
+  }
+]
