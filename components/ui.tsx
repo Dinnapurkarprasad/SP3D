@@ -73,7 +73,7 @@ export function Card({
   id?: string;
 }) {
   return (
-    <section id={id} className={cx("print-avoid rounded-lg border border-line bg-surface shadow-[0_1px_2px_rgba(16,24,40,0.04)]", className)}>
+    <section id={id} className={cx("print-avoid min-w-0 rounded-lg border border-line bg-surface shadow-[0_1px_2px_rgba(16,24,40,0.04)]", className)}>
       {(title || actions) && (
         <header className="flex flex-wrap items-start justify-between gap-3 border-b border-line px-4 py-3">
           <div>
