@@ -1,0 +1,50 @@
+[
+  {
+    "id": "CT-01",
+    "role": "Main tray (MCC-01 outgoing)",
+    "area": "Unit 100 — Pipe rack",
+    "level": "EL +4500",
+    "trayType": "Ladder tray (practice)",
+    "usableWidthMm": 300,
+    "usableHeightMm": 50,
+    "lengthMm": 6000,
+    "warningThresholdPct": 30,
+    "maxThresholdPct": 40
+  },
+  {
+    "id": "CT-02",
+    "role": "Branch to JB-01",
+    "area": "Unit 100 — Instrument area",
+    "level": "EL +4500",
+    "trayType": "Ladder tray (practice)",
+    "usableWidthMm": 150,
+    "usableHeightMm": 50,
+    "lengthMm": 2500,
+    "warningThresholdPct": 30,
+    "maxThresholdPct": 40
+  },
+  {
+    "id": "CT-03",
+    "role": "Branch to M-01",
+    "area": "Unit 100 — Pump P-101A",
+    "level": "EL +4500",
+    "trayType": "Ladder tray (practice)",
+    "usableWidthMm": 150,
+    "usableHeightMm": 50,
+    "lengthMm": 2500,
+    "warningThresholdPct": 30,
+    "maxThresholdPct": 40
+  },
+  {
+    "id": "CT-04",
+    "role": "Branch to M-02",
+    "area": "Unit 100 — Compressor K-101",
+    "level": "EL +4500",
+    "trayType": "Ladder tray (practice)",
+    "usableWidthMm": 150,
+    "usableHeightMm": 50,
+    "lengthMm": 2500,
+    "warningThresholdPct": 30,
+    "maxThresholdPct": 40
+  }
+]

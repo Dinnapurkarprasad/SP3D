@@ -1,0 +1,134 @@
+[
+  {
+    "id": "C-1001",
+    "tag": "MCC01-M02-P01",
+    "fromEquipment": "MCC-01",
+    "toEquipment": "M-02",
+    "cableType": "3C x 95 mm² Cu/XLPE/SWA/PVC 0.6/1 kV",
+    "cableFamily": "LV Power",
+    "outsideDiameterMm": 42,
+    "quantity": 2,
+    "description": "Compressor motor feeder — 2 parallel runs"
+  },
+  {
+    "id": "C-1002",
+    "tag": "MCC01-M02-C01",
+    "fromEquipment": "MCC-01",
+    "toEquipment": "M-02",
+    "cableType": "12C x 1.5 mm² Cu/PVC/SWA/PVC",
+    "cableFamily": "Control",
+    "outsideDiameterMm": 20,
+    "quantity": 1,
+    "description": "Motor control — start/stop, run/trip feedback"
+  },
+  {
+    "id": "C-1101",
+    "tag": "MCC01-M01-P01",
+    "fromEquipment": "MCC-01",
+    "toEquipment": "M-01",
+    "cableType": "3C x 50 mm² Cu/XLPE/SWA/PVC 0.6/1 kV",
+    "cableFamily": "LV Power",
+    "outsideDiameterMm": 33,
+    "quantity": 1,
+    "description": "Pump motor feeder"
+  },
+  {
+    "id": "C-1102",
+    "tag": "MCC01-M01-C01",
+    "fromEquipment": "MCC-01",
+    "toEquipment": "M-01",
+    "cableType": "7C x 1.5 mm² Cu/PVC/SWA/PVC",
+    "cableFamily": "Control",
+    "outsideDiameterMm": 17,
+    "quantity": 1,
+    "description": "Pump motor control from local control station"
+  },
+  {
+    "id": "C-1103",
+    "tag": "MCC01-M01-H01",
+    "fromEquipment": "MCC-01",
+    "toEquipment": "M-01",
+    "cableType": "3C x 2.5 mm² Cu/PVC/SWA/PVC",
+    "cableFamily": "LV Power",
+    "outsideDiameterMm": 15,
+    "quantity": 1,
+    "description": "Motor anti-condensation space heater supply"
+  },
+  {
+    "id": "C-1104",
+    "tag": "M01-JB01-I01",
+    "fromEquipment": "M-01",
+    "toEquipment": "JB-01",
+    "cableType": "1Pr x 1.5 mm² Cu/PVC/OS/SWA/PVC",
+    "cableFamily": "Instrumentation",
+    "outsideDiameterMm": 12,
+    "quantity": 1,
+    "description": "Winding RTD signal to JB-01 (passes through CT-03, CT-01 and CT-02)"
+  },
+  {
+    "id": "C-1105",
+    "tag": "MCC01-M01-E01",
+    "fromEquipment": "MCC-01",
+    "toEquipment": "M-01",
+    "cableType": "1C x 70 mm² Cu/PVC (G/Y)",
+    "cableFamily": "Earthing",
+    "outsideDiameterMm": 14,
+    "quantity": 1,
+    "description": "Motor frame protective earth"
+  },
+  {
+    "id": "C-1201",
+    "tag": "MCC01-JB01-C01",
+    "fromEquipment": "MCC-01",
+    "toEquipment": "JB-01",
+    "cableType": "12C x 1.5 mm² Cu/PVC/SWA/PVC",
+    "cableFamily": "Control",
+    "outsideDiameterMm": 20,
+    "quantity": 1,
+    "description": "Hardwired interlocks to field JB"
+  },
+  {
+    "id": "C-1202",
+    "tag": "MCC01-JB01-I01",
+    "fromEquipment": "MCC-01",
+    "toEquipment": "JB-01",
+    "cableType": "6Pr x 1.0 mm² Cu/PVC/IS-OS/SWA/PVC",
+    "cableFamily": "Instrumentation",
+    "outsideDiameterMm": 19,
+    "quantity": 1,
+    "description": "4–20 mA current transducer signals"
+  },
+  {
+    "id": "C-1203",
+    "tag": "MCC01-JB01-F01",
+    "fromEquipment": "MCC-01",
+    "toEquipment": "JB-01",
+    "cableType": "12-core SM fibre, armoured",
+    "cableFamily": "Communication",
+    "outsideDiameterMm": 10,
+    "quantity": 1,
+    "description": "Motor management relay network link"
+  },
+  {
+    "id": "C-1301",
+    "tag": "MCC01-M01-S01",
+    "fromEquipment": "MCC-01",
+    "toEquipment": "M-01",
+    "cableType": "3C x 2.5 mm² Cu/PVC/SWA/PVC",
+    "cableFamily": "",
+    "outsideDiameterMm": 15,
+    "quantity": 1,
+    "description": "Spare circuit — family not yet classified (deliberate data-quality example)"
+  },
+  {
+    "id": "C-1302",
+    "tag": "MCC01-JB01-C02",
+    "fromEquipment": "MCC-01",
+    "toEquipment": "JB-01",
+    "cableType": "4C x 1.5 mm² Cu/PVC/SWA/PVC",
+    "cableFamily": "Control",
+    "outsideDiameterMm": 0,
+    "quantity": 1,
+    "description": "OD not entered yet (deliberate invalid-OD example)"
+  }
+]

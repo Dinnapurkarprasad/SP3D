@@ -1,0 +1,34 @@
+[
+  { "id": "RA-001", "cableId": "C-1001", "trayId": "CT-01", "segmentName": "CT-01 main run", "sequence": 1, "notes": "" },
+  { "id": "RA-002", "cableId": "C-1001", "trayId": "CT-04", "segmentName": "CT-04 branch", "sequence": 2, "notes": "" },
+  { "id": "RA-003", "cableId": "C-1002", "trayId": "CT-01", "segmentName": "CT-01 main run", "sequence": 1, "notes": "" },
+  { "id": "RA-004", "cableId": "C-1002", "trayId": "CT-04", "segmentName": "CT-04 branch", "sequence": 2, "notes": "" },
+  { "id": "RA-005", "cableId": "C-1002", "trayId": "CT-04", "segmentName": "CT-04 branch", "sequence": 3, "notes": "Duplicate entry from a second import (deliberate example)" },
+
+  { "id": "RA-006", "cableId": "C-1101", "trayId": "CT-01", "segmentName": "CT-01 main run", "sequence": 1, "notes": "" },
+  { "id": "RA-007", "cableId": "C-1101", "trayId": "CT-03", "segmentName": "CT-03 branch", "sequence": 2, "notes": "" },
+  { "id": "RA-008", "cableId": "C-1102", "trayId": "CT-01", "segmentName": "CT-01 main run", "sequence": 1, "notes": "" },
+  { "id": "RA-009", "cableId": "C-1102", "trayId": "CT-03", "segmentName": "CT-03 branch", "sequence": 2, "notes": "" },
+  { "id": "RA-010", "cableId": "C-1103", "trayId": "CT-01", "segmentName": "CT-01 main run", "sequence": 1, "notes": "" },
+  { "id": "RA-011", "cableId": "C-1103", "trayId": "CT-03", "segmentName": "CT-03 branch", "sequence": 2, "notes": "" },
+  { "id": "RA-012", "cableId": "C-1105", "trayId": "CT-01", "segmentName": "CT-01 main run", "sequence": 1, "notes": "" },
+  { "id": "RA-013", "cableId": "C-1105", "trayId": "CT-03", "segmentName": "CT-03 branch", "sequence": 2, "notes": "" },
+
+  { "id": "RA-014", "cableId": "C-1104", "trayId": "CT-03", "segmentName": "CT-03 branch", "sequence": 1, "notes": "Starts at M-01" },
+  { "id": "RA-015", "cableId": "C-1104", "trayId": "CT-01", "segmentName": "CT-01 main run", "sequence": 2, "notes": "" },
+  { "id": "RA-016", "cableId": "C-1104", "trayId": "CT-02", "segmentName": "CT-02 branch", "sequence": 3, "notes": "Ends at JB-01" },
+
+  { "id": "RA-017", "cableId": "C-1201", "trayId": "CT-01", "segmentName": "CT-01 main run", "sequence": 1, "notes": "" },
+  { "id": "RA-018", "cableId": "C-1201", "trayId": "CT-02", "segmentName": "CT-02 branch", "sequence": 2, "notes": "" },
+  { "id": "RA-019", "cableId": "C-1202", "trayId": "CT-01", "segmentName": "CT-01 main run", "sequence": 1, "notes": "" },
+  { "id": "RA-020", "cableId": "C-1202", "trayId": "CT-02", "segmentName": "CT-02 branch", "sequence": 2, "notes": "" },
+  { "id": "RA-021", "cableId": "C-1203", "trayId": "CT-01", "segmentName": "CT-01 main run", "sequence": 1, "notes": "" },
+  { "id": "RA-022", "cableId": "C-1203", "trayId": "CT-02", "segmentName": "CT-02 branch", "sequence": 2, "notes": "" },
+  { "id": "RA-023", "cableId": "C-1203", "trayId": "CT-05", "segmentName": "CT-05 (not in model)", "sequence": 3, "notes": "Tray ID does not exist in the tray register (deliberate example)" },
+
+  { "id": "RA-024", "cableId": "C-1301", "trayId": "CT-01", "segmentName": "CT-01 main run", "sequence": 1, "notes": "" },
+  { "id": "RA-025", "cableId": "C-1301", "trayId": "CT-03", "segmentName": "CT-03 branch", "sequence": 2, "notes": "" },
+  { "id": "RA-026", "cableId": "C-1302", "trayId": "CT-01", "segmentName": "CT-01 main run", "sequence": 1, "notes": "" },
+  { "id": "RA-027", "cableId": "C-1302", "trayId": "CT-02", "segmentName": "CT-02 branch", "sequence": 2, "notes": "" },
+  { "id": "RA-028", "cableId": "C-9999", "trayId": "CT-02", "segmentName": "CT-02 branch", "sequence": 1, "notes": "Cable ID missing from cable schedule (deliberate example)" }
+]

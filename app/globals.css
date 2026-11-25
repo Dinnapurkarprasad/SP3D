@@ -1,26 +1,93 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@theme {
+  --font-sans: "Inter", "Segoe UI", system-ui, -apple-system, "Helvetica Neue", Arial, sans-serif;
+  --font-mono: "Cascadia Mono", "Consolas", ui-monospace, "SFMono-Regular", monospace;
+
+  --color-navy: #17365d;
+  --color-brand: #1f4e78;
+  --color-teal: #0f6b78;
+  --color-teal-soft: #e3f1f3;
+
+  --color-surface: #ffffff;
+  --color-canvas: #f4f6f9;
+  --color-line: #dde3ea;
+  --color-ink: #14213d;
+  --color-ink-2: #4a5568;
+  --color-ink-3: #6b7685;
+
+  /* Status (reserved; always shown with a text label) */
+  --color-ok: #1a7f37;
+  --color-ok-bg: #e7f5ec;
+  --color-warn: #a15c00;
+  --color-warn-mark: #e09b00;
+  --color-warn-bg: #fff4d6;
+  --color-crit: #b42318;
+  --color-crit-bg: #fde8e7;
+  --color-issue: #7a271a;
+  --color-issue-bg: #f2eeee;
+
+  /* Cable family series (fixed order, validated categorical palette) */
+  --color-fam-1: #2a78d6;
+  --color-fam-2: #eb6834;
+  --color-fam-3: #1baf7a;
+  --color-fam-4: #eda100;
+  --color-fam-5: #e87ba4;
+  --color-fam-x: #8a8f98;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html {
+  color-scheme: light;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: var(--color-canvas);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-teal);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+.tabular {
+  font-variant-numeric: tabular-nums;
+}
+
+/* Highlight a record reached from an alert link (#cable-C-1302, #route-RA-023) */
+tr:target,
+li:target,
+div:target {
+  background: #fff4d6 !important;
+  box-shadow: inset 4px 0 0 var(--color-warn-mark);
+}
+
+@media print {
+  @page {
+    size: A4;
+    margin: 14mm;
+  }
+  body {
+    background: #fff;
+  }
+  .no-print {
+    display: none !important;
+  }
+  .print-shell {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  .print-break {
+    break-before: page;
+  }
+  .print-avoid {
+    break-inside: avoid;
+  }
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
 }

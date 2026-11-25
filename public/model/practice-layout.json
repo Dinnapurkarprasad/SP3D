@@ -1,0 +1,16 @@
+{
+  "description": "SIMULATED plan-view geometry for the practice SP3D-style layout. Coordinates in mm, origin at the start of CT-01. This is NOT read from a real SP3D model.",
+  "units": "mm",
+  "trays": [
+    { "trayId": "CT-01", "points": [[0, 0], [6000, 0]], "widthMm": 300, "labelAt": [3000, 0] },
+    { "trayId": "CT-02", "points": [[1500, -150], [1500, -2650]], "widthMm": 150, "labelAt": [1500, -1400] },
+    { "trayId": "CT-03", "points": [[3500, 150], [3500, 2650]], "widthMm": 150, "labelAt": [3500, 1400] },
+    { "trayId": "CT-04", "points": [[5850, -150], [5850, -2650]], "widthMm": 150, "labelAt": [5850, -1400] }
+  ],
+  "equipment": [
+    { "id": "MCC-01", "kind": "mcc", "label": "MCC-01", "subLabel": "LV motor control centre", "x": -1000, "y": -600, "w": 700, "h": 1200, "connectTo": [0, 0] },
+    { "id": "JB-01", "kind": "jb", "label": "JB-01", "subLabel": "Field junction box", "x": 1300, "y": -3150, "w": 400, "h": 400, "connectTo": [1500, -2650] },
+    { "id": "M-01", "kind": "motor", "label": "M-01", "subLabel": "Pump P-101A motor", "cx": 3500, "cy": 3000, "r": 300, "connectTo": [3500, 2650] },
+    { "id": "M-02", "kind": "motor", "label": "M-02", "subLabel": "Compressor K-101 motor", "cx": 5850, "cy": -3000, "r": 300, "connectTo": [5850, -2650] }
+  ]
+}
